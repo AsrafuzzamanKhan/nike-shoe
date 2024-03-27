@@ -1,3 +1,4 @@
+import LocomotiveScroll from "locomotive-scroll"
 import Nav from "./components/Nav"
 import CustomerReviews from "./sections/CustomerReviews"
 import Footer from "./sections/Footer"
@@ -9,8 +10,13 @@ import Subscribe from "./sections/Subscribe"
 import SuperQuality from "./sections/SuperQuality"
 
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
+
+
   return (
-    <main className="relative">
+    <main className="w-full min-h-screen">
+
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
