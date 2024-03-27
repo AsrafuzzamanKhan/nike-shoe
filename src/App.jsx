@@ -1,4 +1,4 @@
-import LocomotiveScroll from "locomotive-scroll"
+import LocomotiveScroll from 'locomotive-scroll';
 import Nav from "./components/Nav"
 import CustomerReviews from "./sections/CustomerReviews"
 import Footer from "./sections/Footer"
